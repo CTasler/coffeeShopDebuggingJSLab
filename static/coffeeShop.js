@@ -31,12 +31,7 @@ for (const button of addButtons) {
     });
   }
   
-  // fetch(`/update-cart.json`)
-  //   .then((response) => response.json())
-  //   .then((result) => {
-  //     cart = result.cart;
-  //     orderTotal = result.total;
-  //   });
+
 // Display the shopping cart items in the right-hand column of the page.
 function displayCart(cartContents) {
   let tableContents = '';
